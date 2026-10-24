@@ -19,7 +19,7 @@ vietnamese_word_embedding/
 │   ├── train_cbow.py           # Huấn luyện mô hình CBOW (Negative Sampling)
 │   └── evaluate.py             # Đánh giá độ tương đồng cosine và tìm từ lân cận
 ├── main.py                     # Script thực thi toàn bộ quy trình huấn luyện & đánh giá
-├── visualize.ipynb             # Jupyter Notebook trực quan hóa 2D (PCA, t-SNE) và 3D (PCA)
+├── visualize.ipynb             # Jupyter Notebook trực quan hóa 2D và 3D bằng PCA
 └── requirements.txt            # Danh sách các thư viện cần thiết
 ```
 
@@ -49,8 +49,8 @@ python main.py
 
 Tuỳ chỉnh các tham số nếu cần:
 ```bash
-python main.py --sentences 15000 --epochs 5 --dim 100 --window 2 --batch_size 512
+python main.py --sentences 80000 --epochs 10 --dim 100 --window 4 --batch_size 512
 ```
 
 ### Trực quan hóa kết quả:
-Mở file `visualize.ipynb` trong VS Code / Jupyter để trực quan hóa không gian véc-tơ 2D (bằng PCA, t-SNE) và 3D (bằng PCA) cho 10 cặp từ.
+Mở file `visualize.ipynb` để trực quan hóa không gian véc-tơ 2D và 3D (bằng PCA) cho 10 cặp từ.

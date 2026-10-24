@@ -1,0 +1,11 @@
+﻿STT,Tu_1,Tu_2,Nhom_Quan_He,Skipgram_Cosine_Similarity,CBOW_Cosine_Similarity
+1,hà_nội,việt_nam,Thủ đô - Quốc gia,0.3527,0.4935
+2,tokyo,nhật_bản,Thủ đô - Quốc gia,0.3714,0.2735
+3,paris,pháp,Thủ đô - Quốc gia,0.356,0.421
+4,vua,hoàng_hậu,Hoàng gia / Giới tính,0.3141,0.5459
+5,đàn_ông,phụ_nữ,Giới tính,0.7434,0.6378
+6,cha,mẹ,Gia đình,0.5454,0.4936
+7,học_sinh,giáo_viên,Giáo dục,0.3595,0.5064
+8,bác_sĩ,bệnh_viện,Y tế,0.2729,0.3967
+9,thành_phố,nông_thôn,Địa lý,0.2371,0.1809
+10,thành_công,thất_bại,Trái nghĩa,0.5647,0.4052
